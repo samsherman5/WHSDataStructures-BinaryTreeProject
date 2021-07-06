@@ -184,8 +184,4 @@ public class BinaryTree {
         if(root == null) return "";
         return root + " " + toStringHelper(root.getLeftChild()) + toStringHelper(root.getRightChild());
     }
-
-    /*
-    * delete
-    */
 }
